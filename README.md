@@ -37,10 +37,11 @@ For this week and all subsequent weeks, we will work inside a single Expo projec
     This will start the Metro bundler and show a QR code in your terminal.
 
     - **To run on browser:** Press `w` to run the app in you browser. Then, to have the phone perspective inside the browser, open the developer development tools using `F12` or `Right click -> Inspect`.
-    - **To run on your phone:** Install the **Expo Go** app from the App Store or Google Play. Scan the QR code with your phone's camera (or from within the Expo Go app).
+    - **To run on your phone:** Install the **Expo Go** app from the App Store or Google Play. Scan the QR code with your phone's camera (or from within the Expo Go appw).
     - **To run on a simulator:** Press `i` for an iOS simulator or `a` for an Android emulator (you must have them installed and configured).
 
 ---
+
 
 ## Practical Exercises
 
