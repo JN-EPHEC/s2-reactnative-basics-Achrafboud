@@ -7,6 +7,7 @@ export default function HomeScreen() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>My Todo List</Text>
+      <Text style={styles.subtitle}>Hi Achraf — here's your list. (Personalized)</Text>
 
       {/* ProfileCard usage as part of the screen (exercise 1) */}
       <ProfileCard
@@ -38,5 +39,10 @@ const styles = StyleSheet.create({
   },
   todoContainer: {
     marginTop: 8,
+  },
+  subtitle: {
+    fontSize: 14,
+    color: '#666',
+    marginBottom: 8,
   },
 });
