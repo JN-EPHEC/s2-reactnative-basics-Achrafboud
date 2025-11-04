@@ -7,7 +7,7 @@ export default function HomeScreen() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>My Todo List</Text>
-      <Text style={styles.subtitle}>Hi Achraf — here's your list. (Personalized)</Text>
+  <Text style={styles.subtitle}>Hi Achraf — here is your list. (Personalized)</Text>
 
       {/* ProfileCard usage as part of the screen (exercise 1) */}
       <ProfileCard
