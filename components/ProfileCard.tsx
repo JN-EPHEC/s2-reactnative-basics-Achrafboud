@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Image, StyleSheet, Text } from "react-native";
+import { Colors } from "../constants/Colors";
 
 // Define the props interface for type safety
 interface ProfileCardProps {
@@ -30,31 +31,34 @@ const styles = StyleSheet.create({
   card: {
     backgroundColor: "#fff",
     borderRadius: 16,
-    padding: 20,
+    padding: 16,
     margin: 16,
     flexDirection: "row",
     alignItems: "center",
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
-    shadowRadius: 4,
-    elevation: 5,
+    shadowOpacity: 0.12,
+    shadowRadius: 6,
+    elevation: 3,
+    borderLeftWidth: 6,
+    borderLeftColor: Colors.light.tint,
   },
   image: {
-    width: 80,
-    height: 80,
-    borderRadius: 40,
+    width: 72,
+    height: 72,
+    borderRadius: 36,
   },
   textContainer: {
-    marginLeft: 16,
+    marginLeft: 14,
   },
   name: {
     fontSize: 20,
     fontWeight: "bold",
+    color: Colors.light.text,
   },
   jobTitle: {
     fontSize: 16,
-    color: "gray",
+    color: Colors.light.icon,
   },
 });
 

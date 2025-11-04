@@ -2,12 +2,13 @@ import React from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import ProfileCard from "../../components/ProfileCard";
 import TodoItem from "../../components/TodoItem";
+import { Colors } from "../../constants/Colors";
 
 export default function HomeScreen() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.title}>My Todo List</Text>
-  <Text style={styles.subtitle}>Hi Achraf — here is your list. (Personalized)</Text>
+    <Text style={styles.title}>EPHEC — My Todo List</Text>
+    <Text style={styles.subtitle}>EPHEC Student Project</Text>
 
       {/* ProfileCard usage as part of the screen (exercise 1) */}
       <ProfileCard
@@ -42,7 +43,7 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     fontSize: 14,
-    color: '#666',
+    color: Colors.light.icon,
     marginBottom: 8,
   },
 });
