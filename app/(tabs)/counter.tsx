@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SafeAreaView, StyleSheet, Text, View, Button } from "react-native";
+import { Button, SafeAreaView, StyleSheet, Text, View } from "react-native";
 
 export default function HomeScreen() {
   // Initialize state for the counter with an initial value of 0.
