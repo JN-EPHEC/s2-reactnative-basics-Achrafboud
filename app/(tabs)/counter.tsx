@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SafeAreaView, StyleSheet, Text } from "react-native";
+import { Button, SafeAreaView, StyleSheet, Text, View } from "react-native";
 
 export default function HomeScreen() {
   // Initialize state for the counter with an initial value of 0.
@@ -7,12 +7,16 @@ export default function HomeScreen() {
 
   // Function to increment the count.
   const incrementCount = () => {
-    // Write your logic here to increment the count
+    setCount((c) => c + 1);
   }
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>Replace this part with your soluce</Text>
+      <Text style={styles.title}>Counter</Text>
+      <Text style={styles.countText}>Count: {count}</Text>
+      <View style={{ width: 160 }}>
+        <Button title="Increment" onPress={incrementCount} />
+      </View>
     </SafeAreaView>
   );
 }
